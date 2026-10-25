@@ -1,15 +1,19 @@
-# Atlas Utòpic · versió de prova 0.19
+# Atles Utòpic de Poti · v0.25
 
-Aquesta versió manté les 33 preguntes originals (11 per dimensió) i afegeix un laboratori filosòfic opcional amb tres dilemes connectats: política i societat, realitat i coneixement, i existència i ètica. El laboratori no modifica les respostes ni les puntuacions del test.
+Aquest paquet conté `index.html`, preparat per actualitzar el lloc publicat amb GitHub Pages.
 
-## Canvis principals
-- Les xifres dels eixos conceptuals s’arrodoneixen a un decimal i el disseny de les barres evita desbordaments horitzontals en mòbil.
-- Quan no hi ha evidència individual suficient, els resultats no assenyalen un autor per simple proximitat temàtica ni generen un rànquing exploratori com si fos una afinitat.
-- Les fitxes separen tradició, biografia, idea central i eixos del pensament. Les dades que encara no estan individualment contrastades s’identifiquen com a pendents, en lloc de repetir text genèric de la tradició.
-- S’han ampliat les fitxes d’Errico Malatesta i Akṣapāda Gautama amb resums individuals, eixos explicats amb exemples i fonts externes. En el cas de Gautama, la incertesa històrica es fa explícita.
-- Les afinitats continuen sent heurístiques i no constitueixen una prova científicament validada.
+## Canvis d'aquesta revisió
 
-## Provar-ho
-Obre `index.html` en un navegador per veure la interfície. Per provar l’aplicació publicada a GitHub Pages, puja els fitxers d’aquest paquet a l’arrel del repositori `atlasutopic` i activa Pages amb la branca principal i la carpeta arrel. No cal modificar ni esborrar l’antic repositori per provar aquesta versió; conserva una còpia abans de substituir cap fitxer.
+- Corregeix el text de l'afinitat no concloent en castellà.
+- Unifica l'etiqueta de versió visible a 0.25.
+- Amaga els apartats d'idea central i eixos del pensament quan només contenen text genèric, en lloc de presentar-lo com si fos una anàlisi individual.
+- Evita recórrer automàticament a una descripció de tradició en un altre idioma.
 
-Fitxers inclosos a l’arrel: `index.html`, `pensadores_catalogo.json`, `manifest.webmanifest`, `icon-192.png`, `icon-512.png` i aquest `README.md`.
+## Com publicar-ho
+
+1. Descomprimeix el ZIP.
+2. Substitueix el `index.html` de l'arrel del repositori pel d'aquest paquet.
+3. Conserva la resta de fitxers que ja hi hagi al repositori, com ara el manifest i les icones.
+4. Fes *Commit changes* i espera que GitHub Pages publiqui els canvis.
+
+**Nota:** aquesta revisió corregeix aquests errors de presentació, però no crea biografies individuals documentades per als autors que encara no en tenen.
