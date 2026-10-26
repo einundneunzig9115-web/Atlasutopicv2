@@ -1,16 +1,20 @@
-# Atlas Utòpic de Poti · v0.27
+# Atlas Utòpic v0.29
 
-## Actualització
+Versió de prova separada. No modifica el repositori original.
 
-Aquesta versió tracta dos punts de base del test:
+## Canvis d'aquesta revisió
 
-1. **Cobertura del catàleg.** Les fitxes exploratòries poden aparèixer com a pistes temàtiques provisionals quan hi ha coincidències en diverses preguntes i com a mínim un senyal relativament específic. No es presenten com una identificació individual verificada. Les fitxes individuals documentades continuen tenint prioritat.
-2. **Disseny de preguntes i etiquetes.** S'ha separat la coordinació social de la legitimitat política; s'han introduït senyals explícits d'ordre espontani, jerarquia i decisió sobirana, i la pregunta empresarial redundant s'ha canviat per un eix directe de política ecològica; s'ha substituït una pregunta causal redundant per una pregunta sobre criteris de coneixement; s'han fet explícites immanència i empirisme; i s'ha incorporat bellesa/experiència estètica com a eix vital diferenciat; la pregunta sobre el principi irrenunciable s'ha substituït per una pregunta sobre impermanència i canvi, amb etiquetes explícites de vacuïtat i relacionalitat. També s'ha reduït el sobreús d'etiquetes generals com `relation`, `unknowability` i `equality`.
+- El rànquing compara els perfils documentats i els perfils parcials elegibles per afinitat calculada, mantenint visible el nivell d'evidència de cada fitxa.
+- La puntuació de consciència i existència incorpora suport específic entre preguntes i un ajust limitat per tensions explícites, sense canviar les correccions polítiques de la v0.28.
+- Les etiquetes de visió de la realitat i orientació vital es decideixen per puntuació de prototips ponderada per especificitat, en lloc d'una cadena fixa d'umbral/ordre. Política conserva el classificador anterior.
+- La fitxa parcial pot ocupar el primer lloc si l'afinitat calculada és més alta; continua identificada com a provisional.
 
-## Instal·lació
+## Validació
 
-Per actualitzar GitHub Pages, substitueix el `index.html` de l'arrel del repositori per aquest fitxer i fes commit dels canvis. `README.md` és documentació opcional.
+Aquest paquet passa les comprovacions de sintaxi JavaScript. Les simulacions descrites a l'auditoria són patrons sintètics, no validació psicomètrica amb persones reals. Les fitxes parcials necessiten revisió filosòfica editorial.
 
-## Limitació important
+L’auditoria compara v0.28 i v0.29 amb el mateix banc sintètic. Les millores a consciència i existència són modestes; no demostren encara una fiabilitat equivalent a la dimensió política.
 
-Aquesta versió no converteix automàticament les fitxes exploratòries en biografies individuals verificades. Les pistes exploratòries serveixen per ampliar les vies de lectura i s'etiqueten com a provisionals. Per transformar-les en identificacions personals fermes, les fitxes han de rebre síntesi individual documentada i les puntuacions han de validar-se contra perfils de prova revisats.
+## Publicació de prova
+
+Descomprimeix el paquet i publica `index.html` en una branca/repositori de prova, no sobre el lloc original fins que s'hagi revisat.
