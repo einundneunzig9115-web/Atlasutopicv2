@@ -1,17 +1,10 @@
-# Test Utòpic de Poti · v0.35
+# Atlas Utòpic v0.36
 
-Versió basada en la v0.34, amb més jerarquia visual per a la recomanació principal. El fitxer `index.html` d'aquest paquet és exactament el mateix HTML que `atlas_utopic_v0_35.html`.
+## Canvis d'aquesta versió
+- La recomanació política parcial i la recomanació de l'Atlas complet utilitzen ara el mateix ordre per puntuació, en lloc de conservar una prioritat política fixa.
+- S'han afegit etiquetes específiques per distingir propietat privada dels mitjans de producció, propietat mixta, cooperatives de treballadors i socialització/propietat col·lectiva.
+- La socialització dels mitjans de producció entra en conflicte explícit amb el compromís de Hoppe amb la propietat privada dels mitjans de producció, i aquest conflicte rep un pes doctrinal superior a les etiquetes genèriques.
+- La versió visible s'ha actualitzat a 0.36.
 
-## Canvis
-- Recomanació principal destacada al resultat de cada dimensió, amb puntuació percentual orientativa.
-- Coincidències, possibles tensions i obra de referència en apartats diferenciats.
-- La fitxa recomanada continua separada de l'arquetip conceptual de cada dimensió.
-- Es mantenen independents les tres dimensions, l'Atlas complet i la síntesi personal.
-- Les coincidències exploratòries i provisionals no s'etiqueten com a recomanacions individuals verificades.
-- Número de versió actualitzat a 0.35 als elements visibles de català, castellà i anglès.
-
-## Ús
-Obre `index.html` en un navegador modern. Les respostes es guarden localment al navegador i no se sincronitzen automàticament entre dispositius o còpies obertes des d'orígens diferents.
-
-## Validació
-S'ha comprovat la integritat del paquet, la coincidència exacta entre l'HTML del ZIP i el fitxer HTML separat, i les funcions principals de resultats per dimensió i Atlas parcial amb Chromium. La prova automatitzada de l'Atlas complet s'ha quedat bloquejada en una seqüència llarga d'interaccions, així que no es presenta com una validació completa de tot el recorregut. No s'ha verificat el comportament en tots els navegadors ni la publicació externa.
+## Nota de validació
+S'ha revisat estàticament el codi i s'ha verificat la integritat del paquet ZIP. Això no equival a una auditoria filosòfica completa de totes les fitxes ni a una prova manual completa de les 33 preguntes. Cal validar els casos de prova abans de considerar el model de puntuació definitiu.
