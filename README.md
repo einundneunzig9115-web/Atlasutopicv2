@@ -1,20 +1,17 @@
-# Atlas Utòpic v0.29
+# Atlas Utòpic v0.30
 
-Versió de prova separada. No modifica el repositori original.
+Versió de prova que restaura el comportament polític de la v0.28 i manté els experiments de classificació de consciència i existència.
 
-## Canvis d'aquesta revisió
+## Canvis
 
-- El rànquing compara els perfils documentats i els perfils parcials elegibles per afinitat calculada, mantenint visible el nivell d'evidència de cada fitxa.
-- La puntuació de consciència i existència incorpora suport específic entre preguntes i un ajust limitat per tensions explícites, sense canviar les correccions polítiques de la v0.28.
-- Les etiquetes de visió de la realitat i orientació vital es decideixen per puntuació de prototips ponderada per especificitat, en lloc d'una cadena fixa d'umbral/ordre. Política conserva el classificador anterior.
-- La fitxa parcial pot ocupar el primer lloc si l'afinitat calculada és més alta; continua identificada com a provisional.
+- **Política:** el resultat principal, la llista principal de candidats i les recomanacions de lectura utilitzen de nou la prioritat de la v0.28.
+- **Consciència i existència:** conserven els canvis de puntuació dependent de preguntes i els arquetips ponderats per prototips de la v0.29.
+- **Confiança:** les fitxes provisionals continuen marcades com a provisionals. L’auditoria detecta que encara cal calibrar quan poden superar una fitxa documentada, sobretot en consciència.
 
-## Validació
+## Proves
 
-Aquest paquet passa les comprovacions de sintaxi JavaScript. Les simulacions descrites a l'auditoria són patrons sintètics, no validació psicomètrica amb persones reals. Les fitxes parcials necessiten revisió filosòfica editorial.
+El paquet inclou una comparació de cinc tandes de 500 patrons aleatoris per dimensió i versió (2.500 per dimensió). És una prova sintètica d’estrès, no una validació amb persones reals. Vegeu `auditoria_v030_resultats.md`.
 
-L’auditoria compara v0.28 i v0.29 amb el mateix banc sintètic. Les millores a consciència i existència són modestes; no demostren encara una fiabilitat equivalent a la dimensió política.
+## Publicació segura
 
-## Publicació de prova
-
-Descomprimeix el paquet i publica `index.html` en una branca/repositori de prova, no sobre el lloc original fins que s'hagi revisat.
+El fitxer executable és `index.html`. Publiqueu-lo en una branca o repositori separat si voleu una prova web; no substituïu el lloc original sense revisar aquesta versió.
