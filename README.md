@@ -1,26 +1,17 @@
-# Atlas Utòpic de Poti · v0.34
+# Test Utòpic de Poti · v0.35
 
-Paquet de prova amb dos fitxers: `index.html` i `README.md`.
+Versió basada en la v0.34, amb més jerarquia visual per a la recomanació principal. El fitxer `index.html` d'aquest paquet és exactament el mateix HTML que `atlas_utopic_v0_35.html`.
 
-## Correccions d’aquesta versió
+## Canvis
+- Recomanació principal destacada al resultat de cada dimensió, amb puntuació percentual orientativa.
+- Coincidències, possibles tensions i obra de referència en apartats diferenciats.
+- La fitxa recomanada continua separada de l'arquetip conceptual de cada dimensió.
+- Es mantenen independents les tres dimensions, l'Atlas complet i la síntesi personal.
+- Les coincidències exploratòries i provisionals no s'etiqueten com a recomanacions individuals verificades.
+- Número de versió actualitzat a 0.35 als elements visibles de català, castellà i anglès.
 
-- **Mapa filosòfic acumulat:** reuneix les dimensions en què ja s’han respost preguntes. Cada dimensió contestada mostra el seu perfil orientatiu i el rànquing d’afinitats puntuades; les dimensions sense respostes apareixen com a pendents, sense inferir resultats.
-- **Accés al mapa acumulat:** disponible des dels resultats del capítol i des de l’opció `Mapa filosòfic` del menú quan hi ha respostes desades.
-- **Canvi d’idioma en pantalles ja obertes:** les fitxes de pensadors i el mapa acumulat es tornen a dibuixar en canviar entre català, castellà i anglès.
-- **Textos de les fitxes traduïts:** les 26 estructures de pensament integrades tenen eixos i exemples en català, castellà i anglès.
-- **Millora de rendiment:** es reutilitzen coincidències i entrades de rànquing quan les respostes no han canviat.
+## Ús
+Obre `index.html` en un navegador modern. Les respostes es guarden localment al navegador i no se sincronitzen automàticament entre dispositius o còpies obertes des d'orígens diferents.
 
-## Com provar-lo
-
-1. Obre `index.html` en un navegador modern.
-2. Respon algunes preguntes d’un capítol i torna a la portada.
-3. Respon preguntes d’un segon capítol.
-4. Obre `Mapa filosòfic`: hauries de veure les tres dimensions, amb mapes d’afinitat per a les dimensions contestades i un estat pendent per a les altres.
-5. Canvia la llengua mentre el mapa o una fitxa d’autor és oberta: el contingut visible hauria de canviar també.
-
-## Notes importants
-
-- Les respostes es guarden localment al navegador. No hi ha sincronització entre dispositius ni entre dominis.
-- Les puntuacions són índexs interns de coincidència del prototip, no probabilitats ni percentatges de compatibilitat validats científicament.
-- La profunditat documental de les fitxes és desigual. Contrasta les coincidències amb les obres dels autors.
-- Aquest paquet és una còpia de prova independent. No modifica el repositori original ni publica canvis a GitHub Pages.
+## Validació
+S'ha comprovat la integritat del paquet, la coincidència exacta entre l'HTML del ZIP i el fitxer HTML separat, i les funcions principals de resultats per dimensió i Atlas parcial amb Chromium. La prova automatitzada de l'Atlas complet s'ha quedat bloquejada en una seqüència llarga d'interaccions, així que no es presenta com una validació completa de tot el recorregut. No s'ha verificat el comportament en tots els navegadors ni la publicació externa.
