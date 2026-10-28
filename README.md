@@ -1,28 +1,17 @@
-# Atlas Utòpica v0.37
+# Atlas Utòpica v0.39
 
-Atlas Utòpica és un test interactiu d'orientació filosòfica pensat per explorar tres dimensions: ideologia política, concepció de la consciència i motivació/existència. Els resultats relacionen les respostes amb perfils d'autors i corrents de pensament.
+Aplicació HTML autònoma de l'Atlas Utòpica.
 
-## Fitxer principal
+## Novetats de v0.39
+- Resultats agrupats per dimensió: recomanació, puntuació, evidències, senyals i rànquing queden junts.
+- La puntuació de cada recomanació és més visible, amb un percentatge destacat i una barra de progrés.
+- Les puntuacions dels conceptes es poden desplegar dins de la dimensió corresponent.
+- El mapa visual global i les lectures complementàries queden plegats en una secció secundària per reduir la llargada inicial.
+- Es conserva l'HTML complet en un sol fitxer.
 
-- `Atlas_Utopic_v037.html`: aplicació en un únic fitxer HTML.
+## Ús
+Obre `Atlas_Utopic_v039.html` en un navegador modern. Per publicar-lo a GitHub Pages, puja aquest fitxer al repositori i configura Pages segons l'estructura del projecte.
 
-## Com obrir-lo
-
-1. Descarrega `Atlas_Utopic_v037.html`.
-2. Obre'l amb un navegador modern (Chrome, Firefox, Edge o Safari).
-3. Si el navegador o el dispositiu limita alguna funció en obrir un fitxer local, prova de publicar-lo amb GitHub Pages.
-
-## Publicar a GitHub Pages
-
-1. Obre el repositori de GitHub on vols publicar Atlas Utòpica.
-2. Puja `Atlas_Utopic_v037.html` i, si vols que la pàgina es mostri a l'arrel del lloc, canvia'n el nom a `index.html`.
-3. Ves a **Settings → Pages**.
-4. A **Build and deployment**, selecciona la branca i la carpeta on has pujat el fitxer (habitualment `main` i `/(root)`) i desa els canvis.
-5. Espera que GitHub Pages publiqui el lloc i obre l'URL que indiqui GitHub.
-
-> Nota: aquest ZIP només empaqueta els fitxers; no publica automàticament canvis al repositori ni actualitza el lloc web existent.
-
-## Versió
-
-- Versió del paquet: **0.37**
-- Contingut: HTML de l'aplicació i aquest README.
+## Contingut del ZIP
+- `Atlas_Utopic_v039.html`
+- `README.md`
