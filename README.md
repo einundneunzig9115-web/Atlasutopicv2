@@ -1,17 +1,26 @@
-# Atlas Utòpica v0.39
+# Atlas Utòpica v0.40 · copia de trabajo
 
-Aplicació HTML autònoma de l'Atlas Utòpica.
+Esta entrega contiene la versión de trabajo 0.40. El archivo `index.html` de este paquete es **idéntico byte por byte** al archivo independiente `Atlas_Utopic_v040.html` entregado junto al ZIP.
 
-## Novetats de v0.39
-- Resultats agrupats per dimensió: recomanació, puntuació, evidències, senyals i rànquing queden junts.
-- La puntuació de cada recomanació és més visible, amb un percentatge destacat i una barra de progrés.
-- Les puntuacions dels conceptes es poden desplegar dins de la dimensió corresponent.
-- El mapa visual global i les lectures complementàries queden plegats en una secció secundària per reduir la llargada inicial.
-- Es conserva l'HTML complet en un sol fitxer.
+## Contenido
+- `index.html`: entrada principal para GitHub Pages.
+- `README.md`: estas instrucciones y notas de validación.
+- `manifest.webmanifest`: metadatos de instalación web.
+- `icon-192.png` y `icon-512.png`: iconos referenciados por el manifiesto.
 
-## Ús
-Obre `Atlas_Utopic_v039.html` en un navegador modern. Per publicar-lo a GitHub Pages, puja aquest fitxer al repositori i configura Pages segons l'estructura del projecte.
+## Cambios principales incluidos en 0.40
+- Ajustes a la selección y presentación de recomendaciones para mostrar cinco autores por dimensión cuando el estado del test permite emitir resultados.
+- Unificación del orden de los perfiles con puntuación entre dimensiones.
+- Actualización de identificadores de versión del motor y de los datos exportados.
 
-## Contingut del ZIP
-- `Atlas_Utopic_v039.html`
-- `README.md`
+## Estado de validación
+- Los seis bloques JavaScript incrustados pasan una comprobación sintáctica con `node --check`.
+- **La validación funcional completa en navegador sigue pendiente.** La prueba automatizada en Chromium no pudo finalizar correctamente en el entorno de auditoría.
+- Por tanto, esta es una copia de trabajo para revisión, no una garantía de que todos los flujos de la aplicación estén validados ni de que esté desplegada en GitHub Pages.
+- El paquete no confirma ni modifica el contenido actual del repositorio remoto.
+
+## Publicación en GitHub Pages
+Para probar esta copia en un repositorio, conserva los nombres y sube los cinco archivos a la raíz. Hazlo solo después de guardar una copia de seguridad de la versión publicada. No se ha realizado ningún despliegue remoto.
+
+## Nota sobre los iconos
+Los iconos incluidos se recrearon para mantener funcional el manifiesto; no se ha podido confirmar que sean idénticos a los iconos originales del repositorio de GitHub.
