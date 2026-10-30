@@ -1,26 +1,23 @@
-# Atlas Utòpica v0.40 · copia de trabajo
+# Atlas Utòpica v0.43
 
-Esta entrega contiene la versión de trabajo 0.40. El archivo `index.html` de este paquete es **idéntico byte por byte** al archivo independiente `Atlas_Utopic_v040.html` entregado junto al ZIP.
+## Cambios
 
-## Contenido
-- `index.html`: entrada principal para GitHub Pages.
-- `README.md`: estas instrucciones y notas de validación.
-- `manifest.webmanifest`: metadatos de instalación web.
-- `icon-192.png` y `icon-512.png`: iconos referenciados por el manifiesto.
+- Mantiene las firmas de autor específicas y la deduplicación de perfiles provisionales incorporadas en la 0.42.
+- Prioriza las recomendaciones con evidencia individual suficiente antes de añadir coincidencias provisionales. Dentro de cada nivel de evidencia, ordena por puntuación y desempata por nombre de forma determinista.
+- Aplica el mismo criterio en la recomendación principal por dimensión y calcula la diferencia de afinidad dentro del mismo nivel.
+- Utiliza hasta ocho pistas temáticas elegibles como reserva, para completar cinco entradas cuando hay candidatos suficientes, manteniendo sus límites documentales visibles.
 
-## Cambios principales incluidos en 0.40
-- Ajustes a la selección y presentación de recomendaciones para mostrar cinco autores por dimensión cuando el estado del test permite emitir resultados.
-- Unificación del orden de los perfiles con puntuación entre dimensiones.
-- Actualización de identificadores de versión del motor y de los datos exportados.
+## Archivos
 
-## Estado de validación
-- Los seis bloques JavaScript incrustados pasan una comprobación sintáctica con `node --check`.
-- **La validación funcional completa en navegador sigue pendiente.** La prueba automatizada en Chromium no pudo finalizar correctamente en el entorno de auditoría.
-- Por tanto, esta es una copia de trabajo para revisión, no una garantía de que todos los flujos de la aplicación estén validados ni de que esté desplegada en GitHub Pages.
-- El paquete no confirma ni modifica el contenido actual del repositorio remoto.
+- `index.html`: aplicación completa; idéntica byte por byte al HTML individual.
+- `README.md`: notas de versión y pruebas.
+- `manifest.webmanifest`, `icon-192.png`, `icon-512.png`: recursos del sitio.
 
-## Publicación en GitHub Pages
-Para probar esta copia en un repositorio, conserva los nombres y sube los cinco archivos a la raíz. Hazlo solo después de guardar una copia de seguridad de la versión publicada. No se ha realizado ningún despliegue remoto.
+## Validación
 
-## Nota sobre los iconos
-Los iconos incluidos se recrearon para mantener funcional el manifiesto; no se ha podido confirmar que sean idénticos a los iconos originales del repositorio de GitHub.
+- Los ocho bloques JavaScript inline superan `node --check`.
+- Se ejecutaron ocho perfiles sintéticos de referencia en Chromium para las tres dimensiones (24 rankings). La 0.43 produjo cinco entradas en los 24 casos sin errores JavaScript de ejecución.
+- La comparación 0.41 → 0.43 cambió las 24 listas de cinco resultados; la coincidencia media entre listas fue de 3/5 nombres. Esto demuestra que cambió el ranking, no que cada recomendación sea ya correcta.
+- Se comprobó el render completo con 5/5/5 resultados, una vista parcial de capítulo con cinco respuestas y el cambio de idioma al castellano.
+- Los perfiles sintéticos son pruebas de regresión, no una muestra de usuarios ni una validación psicométrica. Las fichas del catálogo tienen profundidad desigual, y solo una parte de los autores dispone de firmas individuales explícitamente curadas.
+- Esta entrega no se ha publicado automáticamente en GitHub Pages. Conserva una copia de seguridad antes de reemplazar archivos remotos.
