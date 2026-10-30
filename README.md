@@ -1,39 +1,28 @@
-# Atlas Utòpica v0.60
+# Atlas Utòpica v0.61
 
-Atlas Utòpica és una aplicació web estàtica per explorar afinitats filosòfiques en tres dimensions independents: política, consciència i existència/orientació vital.
+Aplicació web estàtica per explorar afinitats filosòfiques en política, consciència i existència.
 
-## Contingut del paquet
-
-- `index.html`: aplicació completa. És el mateix fitxer que s'entrega individualment com `Atlas_Utopic_v060.html`.
-- `manifest.webmanifest`: manifest de l'aplicació web progressiva.
-- `icon-192.png` i `icon-512.png`: icones referenciades pel manifest.
+## Fitxers
+- `index.html`: aplicació completa, idèntica a l’HTML individual lliurat.
 - `README.md`: aquestes instruccions.
+- `manifest.webmanifest`, `icon-192.png`, `icon-512.png`: recursos PWA.
 
-## Publicar a GitHub Pages
+## Publicació a GitHub Pages
+1. Descomprimeix el ZIP.
+2. Puja els cinc fitxers a l’arrel del repositori que publica GitHub Pages.
+3. Substitueix el `index.html` existent sense canviar-ne el nom.
+4. Mantén el manifest i les icones a la mateixa arrel.
+5. Després del commit, comprova la pàgina sense memòria cau.
 
-1. Descarrega i descomprimeix el ZIP.
-2. Puja el contingut dels cinc fitxers a l'arrel del repositori que publica GitHub Pages.
-3. Substitueix el `index.html` existent; conserva aquest nom. No pugis el HTML com un fitxer addicional amb nom de versió.
-4. Mantén el manifest i les dues icones a la mateixa arrel perquè les seves rutes relatives continuïn funcionant.
-5. Espera que GitHub Pages publiqui el commit i comprova la web en una finestra privada o després de buidar la memòria cau.
+## Canvis de la 0.61
+- S’eliminen les barres fixes de puntuació que repetien els indicadors ja disponibles al desplegable principal dels resultats complets.
+- Al resultat parcial de capítol, les puntuacions també queden dins d’un desplegable.
+- Els textos d’autor sense traducció disponible ja no es mostren silenciosament en una altra llengua: apareix un avís localitzat.
+- Els noms propis dels autors es conserven en la forma canònica de la fitxa d’origen, sense traduccions inconsistents entre idiomes.
+- Metadades i exportació actualitzades a 0.61.
 
-## Canvis de la versió 0.60
+## Criteri lingüístic
+Català, castellà i anglès s’han de revisar per separat. Els noms propis es mantenen en la forma canònica emprada pel catàleg; no es tradueixen literalment. Quan una descripció no té traducció validada, s’indica explícitament.
 
-- Mostra contradiccions directes i tensions interpretatives dins de les tres dimensions, no només en política.
-- Distingeix una incompatibilitat directa en una mateixa faceta d'una tensió entre prioritats que poden coexistir.
-- Les tensions interpretatives incorporen una explicació contextual en català, castellà i anglès, en lloc de mostrar únicament dues etiquetes.
-- Les tensions només s'afegeixen quan hi ha una posició d'autor amb procedència reconegcida pel model i una resposta de l'usuari que activa l'altra banda de la relació.
-- La interpretació de «pluralisme pragmàtic» explica el concepte, el tipus de coherència que descriu i la pregunta crítica que el posa a prova; no es limita a repetir les respostes.
-- Les targetes dels cinc resultats poden mostrar el mateix tipus d'explicació de tensions quan hi ha evidència individual suficient.
-- S'actualitzen els identificadors del motor i les metadades a `0.60`.
-
-## Límits coneguts
-
-- Les tensions són indicis interpretatius delimitats per les posicions i les etiquetes documentades. No constitueixen una auditoria exhaustiva de tota l'obra d'un autor ni una prova de contradicció biogràfica.
-- Les fiches del catálogo todavía no tienen cobertura documental homogénea. Una plantilla uniforme no significa que todas las biografías, tesis, obras y referencias estén ya investigadas con la misma profundidad.
-- Esta versión no ha sido desplegada en el repositorio remoto. El ZIP está preparado para sustituir el `index.html` de GitHub Pages.
-- La prueba completa de interacción en navegador no pudo ejecutarse en el entorno de validación; se han ejecutado comprobaciones sintácticas y pruebas controladas de la lógica de la capa 0.60.
-
-## Idiomas
-
-La interfaz y las explicaciones de esta actualización incluyen catalán, castellano e inglés.
+## Límits
+Aquesta actualització corregeix la duplicació visual i el fallback silenciós de traducció. No constitueix una revisió filològica exhaustiva de les 873 fitxes ni una validació externa de totes les traduccions.
