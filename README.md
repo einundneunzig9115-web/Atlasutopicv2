@@ -1,23 +1,32 @@
-# Atlas Utòpica v0.43
+# Atlas Utòpica · v0.58
 
-## Cambios
+Candidata de cierre del trabajo iniciado sobre la versión 0.39 y continuado en las versiones 0.50–0.58.
 
-- Mantiene las firmas de autor específicas y la deduplicación de perfiles provisionales incorporadas en la 0.42.
-- Prioriza las recomendaciones con evidencia individual suficiente antes de añadir coincidencias provisionales. Dentro de cada nivel de evidencia, ordena por puntuación y desempata por nombre de forma determinista.
-- Aplica el mismo criterio en la recomendación principal por dimensión y calcula la diferencia de afinidad dentro del mismo nivel.
-- Utiliza hasta ocho pistas temáticas elegibles como reserva, para completar cinco entradas cuando hay candidatos suficientes, manteniendo sus límites documentales visibles.
+## Publicación en GitHub Pages
 
-## Archivos
+1. Descarga y conserva una copia del repositorio actual antes de sustituir nada.
+2. Sustituye el `index.html` existente por el `index.html` incluido aquí.
+3. Mantén `manifest.webmanifest`, `icon-192.png` e `icon-512.png` en la raíz del repositorio.
+4. No subas `Atlas_Utopic_v058.html` como segundo punto de entrada: el archivo del paquete ya se llama `index.html`.
 
-- `index.html`: aplicación completa; idéntica byte por byte al HTML individual.
-- `README.md`: notas de versión y pruebas.
-- `manifest.webmanifest`, `icon-192.png`, `icon-512.png`: recursos del sitio.
+Este paquete no modifica el repositorio remoto ni publica la web automáticamente.
 
-## Validación
+## Cambios incorporados en esta candidata
 
-- Los ocho bloques JavaScript inline superan `node --check`.
-- Se ejecutaron ocho perfiles sintéticos de referencia en Chromium para las tres dimensiones (24 rankings). La 0.43 produjo cinco entradas en los 24 casos sin errores JavaScript de ejecución.
-- La comparación 0.41 → 0.43 cambió las 24 listas de cinco resultados; la coincidencia media entre listas fue de 3/5 nombres. Esto demuestra que cambió el ranking, no que cada recomendación sea ya correcta.
-- Se comprobó el render completo con 5/5/5 resultados, una vista parcial de capítulo con cinco respuestas y el cambio de idioma al castellano.
-- Los perfiles sintéticos son pruebas de regresión, no una muestra de usuarios ni una validación psicométrica. Las fichas del catálogo tienen profundidad desigual, y solo una parte de los autores dispone de firmas individuales explícitamente curadas.
-- Esta entrega no se ha publicado automáticamente en GitHub Pages. Conserva una copia de seguridad antes de reemplazar archivos remotos.
+- Modelo de comparación por facetas independientes en política, conciencia y existencia.
+- Posiciones desconocidas diferenciadas de posiciones contrarias; una posición no registrada no se infiere de la escuela ni de otras posiciones.
+- Etiquetas y señales con procedencia explícita (tesis atribuida, indicador editorial o ausencia de registro).
+- Opciones visibles ampliadas y diferenciadas para conceptos que antes se confundían, incluida la distinción entre cooperación/propiedad cooperativa, anarquismo individualista de mercado y modelo anarco-capitalista.
+- Mapeo de señales a preguntas/facetas específicas, sin contar la misma señal repetida como varias evidencias independientes.
+- Corrección de la deduplicación de índices para conservar el índice `0` como valor válido.
+- Metadatos de versión alineados a 0.58 en título, interfaz, guardado local y exportación de respuestas.
+
+## Límites conocidos
+
+- La biblioteca conserva autores cuyas fichas tienen distinta profundidad documental. La estructura de ficha es común y las posiciones no registradas se tratan como desconocidas, pero **no se han completado todavía biografías, tesis individuales, obras y referencias para todos los autores**. Por tanto, no debe interpretarse esta candidata como cumplimiento final de la igualdad de calidad documental en todo el catálogo.
+- Las comprobaciones de esta entrega incluyen sintaxis de los 16 bloques JavaScript, estructura HTML, manifiesto, recursos e identidad exacta entre el HTML individual y el `index.html` del ZIP. La comprobación de navegación interactiva en Chromium no pudo completarse en el entorno de validación (el navegador bloqueó la navegación con `ERR_BLOCKED_BY_ADMINISTRATOR`).
+- No se ha comprobado el despliegue remoto de GitHub Pages.
+
+## Privacidad
+
+La aplicación conserva las respuestas en el dispositivo mediante el mecanismo local de la propia aplicación. Revisa el código y la configuración de tu repositorio antes de publicar.
