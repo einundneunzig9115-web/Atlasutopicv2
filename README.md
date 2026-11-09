@@ -1,11 +1,21 @@
-# Atlas Utòpica v0.62
+# Atlas Utòpica v0.63
 
-## Publicación
-1. Conserva una copia de seguridad del repositorio actual.
-2. Sustituye el archivo existente `index.html` por el `index.html` de este ZIP.
-3. Conserva el nombre `index.html` y los recursos incluidos.
+## Publicació a GitHub Pages
 
-## Cambio principal
-Las etiquetas temáticas generales dejan de contar como evidencia individual de afinidad. Se separan coordinación mediante mercados, propiedad productiva y organización del trabajo. Las fichas sin evidencia individual suficiente quedan pendientes de investigación, en vez de recibir tesis inventadas.
+Aquest ZIP està preparat per substituir els fitxers del lloc existent. Descomprimeix-ne el contingut a l’arrel del repositori i conserva `index.html` com a pàgina principal.
 
-La matriz de auditoría completa de las 871 fichas se entrega por separado en `Atlas_Auditoria_Etiquetes_v062.csv`.
+## Contingut
+
+- `index.html`: aplicació Atlas Utòpica v0.63.
+- `manifest.webmanifest`: manifest de l’aplicació web.
+- `icon-192.png` i `icon-512.png`: icones.
+
+## Canvis de v0.63
+
+- Etiquetes heretades de grup ja no es presenten com a tesis individuals ni puntuen com a evidència d’autor.
+- Etiquetes de fitxes provisionals es limiten als indicis distintius declarats.
+- Nova tanda de dossiers individuals en política, consciència i existència, amb obres i fonts enllaçades.
+- Propietat dels mitjans productius i mecanismes de coordinació econòmica es tracten com a eixos independents.
+- S’afegeix una opció de socialisme de mercat i una pregunta separada sobre coordinació econòmica.
+
+La cobertura individual de tots els 871 registres encara no està completada. Les fitxes sense evidència individual continuen marcades com a pendents de recerca.
