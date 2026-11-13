@@ -1,9 +1,11 @@
-# Atlas Utòpic v0.69.1
+# Atlas Utòpic v0.69.3
 
-Paquet publicable a GitHub Pages.
+Paquet complet per publicar a GitHub Pages.
 
-- `index.html`: versió principal de l'aplicació.
-- `Atlas_Utopic_v0691.html`: còpia individual idèntica de `index.html`.
+Descomprimeix tots els fitxers a l'arrel del repositori i publica'ls amb GitHub Pages.
+
+- `index.html`: aplicació principal.
+- `Atlas_Utopic_v0693.html`: còpia individual idèntica a `index.html`.
 - `manifest.webmanifest` i icones: recursos PWA.
 
-La versió HTML inclou la composició de resultats corregida, la neteja de preguntes i respostes literals i el disseny adaptatiu de les tres dimensions.
+Es conserva el qüestionari de 33 preguntes (11 per dimensió), el motor de resultats i el catàleg d'autors.
